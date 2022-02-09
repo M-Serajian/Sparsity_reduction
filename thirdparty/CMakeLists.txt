@@ -1,6 +1,5 @@
 # Thirdparty libraries
 include(FetchContent)
-include(FetchContent_Install)
 
 # Log directory for external content builds
 make_directory(${CMAKE_CURRENT_BINARY_DIR}/logs)
