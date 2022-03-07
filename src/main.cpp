@@ -15,5 +15,10 @@ int main(int argc, char *const argv[])
     sdsl::construct_im(cst, static_cast<const char*>(&text[0]), num_bytes);
     
     std::cout << cst.size() << std::endl;
+    auto root = cst.root();
+    std::cout << root << std::endl;
+    cst.sl(root);
+    
+
   return 0;
 }
