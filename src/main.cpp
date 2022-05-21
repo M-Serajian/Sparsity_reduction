@@ -1,20 +1,24 @@
 // Cmake command sent by Max to prevent to -fPIE flag error
 //       cmake -DCMAKE_PREFIX_PATH=/s/apu/a/homes/rossi.m ..      //
-
+// cd ~/projects/Sparsity_reduction/build
 
 #include<iostream>
 
 #include <sdsl/rmq_support.hpp>
 #include <sdsl/int_vector.hpp>
 #include <sdsl/cst_sct3.hpp>
- 
-
-#include <sdsl/vectors.hpp>
+ #include <sdsl/vectors.hpp>
 using namespace std;
 using namespace sdsl;
 
+
+#define DEBUG // Probably in a header file
+
+
 int main(int argc, char *const argv[])
 {
+  
+    
     // Start of First example with Max
     // std::string text = "ABRACADABRA";
 
@@ -43,7 +47,11 @@ int main(int argc, char *const argv[])
 
 // input
 //std::string text = "ABRACADABRA";
-std::string text = "ABA";
+
+//...
+#ifdef DEBUG // Check to see if flag is defined
+
+std::string text = "umulmundumulmum";
 // CST calculation
 cst_sct3<> cst;
 construct_im(cst, text, 1);
@@ -51,38 +59,98 @@ construct_im(cst, text, 1);
 
 int Node_numbers=cst.nodes(); 
 int CSA_size=cst.csa.size();
-
 auto root = cst.root();
 
 cout << "Totall Leaves : " << CSA_size << endl;
 cout << "Inner nodes : " << Node_numbers - CSA_size << endl;
 cout << "Totall nodes : " << Node_numbers << endl;
 cout << "CSA : " << cst.csa<< endl;
-
 cout << "Root : " << root << endl;
 
-cst.child(cst.root(), 'u');
 
-cout << " --------------------------------------- " << endl;
-cout << "V= 0  : " << cst.is_leaf(0)<< endl;
-cout << "V= 1 : "  << cst.is_leaf(1)<< endl;
-cout << "V= 2 : "  << cst.is_leaf(2)<< endl;
-cout << "V= 3 : "  << cst.is_leaf(3)<< endl;
-cout << "V= 4 : "  << cst.is_leaf(4)<< endl;
-cout << "V= 5 : "  << cst.is_leaf(5)<< endl;
+auto v = cst.select_child(cst.child(cst.root(), 'u'),1);
+auto d = cst.depth(v);
+cout << "v : " << v << endl;
+cout << "d : " << d << endl;
+cout << "extract(cst, v) : " << extract(cst, v) << endl;
+cout << "edge(v,1) : " << cst.edge(v,1) << endl;
+cout << "edge(v,2) : " << cst.edge(v,2) << endl;
+cout << "edge(v,3) : " << cst.edge(v,3) << endl;
+cout << "edge(v,4) : " << cst.edge(v,4) << endl;
 
 
-cout << "Degree V= 0  : " << cst.degree(root)<< endl;
-cout << "Degree V= 1  : " << cst.degree(1)<< endl;
-cout << "Degree V= 2  : " << cst.degree(2)<< endl;
-cout << "Degree V= 3  : " << cst.degree(3)<< endl;
-cout << "Degree V= 4  : " << cst.degree(4)<< endl;
-cout << "Degree V= 5  : " << cst.degree(5)<< endl;
+
+
+// cout << " --------------------------------------- " << endl;
+
+// v = cst.select_child(root, 1);
+// d = cst.depth(v);
+// cout << "v : " << v << endl;
+// cout << "d : " << d << endl;
+// cout << "extract(cst, v) : " << extract(cst, v) << endl;
+// cout << "edge(v,1) : " << cst.edge(v,1) << endl;
+
+
+
+// cout << " --------------------------------------- " << endl;
+
+// v = cst.select_child(cst.child(cst.root(), 'm'),1);
+// d = cst.depth(v);
+// cout << "v : " << v << endl;
+// cout << "d : " << d << endl;
+// cout << "extract(cst, v) : " << extract(cst, v) << endl;
+// cout << "edge(v,1) : " << cst.edge(v,1) << endl;
+
+
+// cout << " --------------------------------------- " << endl;
+
+// v = cst.select_child(cst.child(cst.root(), 'm'),2);
+// d = cst.depth(v);
+// cout << "v : " << v << endl;
+// cout << "d : " << d << endl;
+// cout << "extract(cst, v) : " << extract(cst, v) << endl;
+// cout << "edge(v,1) : " << cst.edge(v,1) << endl;
+// cout << "edge(v,2) : " << cst.edge(v,2) << endl;
+
+// cout << " --------------------------------------- " << endl;
+
+// v = cst.select_child(root, 5);
+// d = cst.depth(v);
+// cout << "v : " << v << endl;
+// cout << "d : " << d << endl;
+// cout << "extract(cst, v) : " << extract(cst, v) << endl;
+// cout << "edge(v,1) : " << cst.edge(v,1) << endl;
+// cout << "id(v) : " << cst.id(v) << endl;
+// cout << "sn(v) : " << cst.sn(v) << endl;
+// cout << "inv_id(v) : " << cst.inv_id(5) << endl;
+
+
+// cout << " --------------------------------------- " << endl;
+
+// v= cst.select_leaf(2);
+// d = cst.depth(v);
+// cout << "v : " << v << endl;
+// cout << "d : " << d << endl;
+
+
+
+/* debugging code here */
+#endif // DEBUG
+
+
+// auto v= cst.child(cst.root(), 1);
+// cout <<" v is:"<< v<< endl;
+// cout << " --------------------------------------- " << endl;
+
+// cout << "V= 0  : " << cst.is_leaf(root)<< endl;
+// auto v= cst.child(v, 1);
+// cout << "V= v  : " << cst.is_leaf(v)<< endl;
 
 
 // 2: Let A be an array of nodes and initialize A to be equal to ∅.
 // 3: Initialize each bit of each node in T to be 0.
-int A[Node_numbers]= {0};
+
+//int A[Node_numbers]= {0};
 
 // Checking the correctness
 // int arrSize = sizeof(A)/sizeof(A[0]);
@@ -91,7 +159,9 @@ int A[Node_numbers]= {0};
 
 
 // 4: Let V be an array of nodes to be searched.
-int V[Node_numbers]= {0};
+
+//int V[Node_numbers]= {0};
+
 // 5: Initialize V to be equal to the set of the leaves of T .
 
 // 6: while V ̸ = ∅ do
@@ -112,6 +182,37 @@ int V[Node_numbers]= {0};
 // 19: Store that node into B.
 // 20: end for
 // 21: Return T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
