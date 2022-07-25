@@ -20,11 +20,10 @@ typedef cst_sada<> csts_t;
 typedef cst_sct3<csa_bitcompressed<int_alphabet<> > >::node_type node_t;
 
 // recalling the classes defined in this project
-# include "class_SR.h"
+# include "Sparsity_reduction_header.h"
 
 
 #define DEBUG 
-
 
 
 int main(int argc, char *const argv[])
@@ -33,10 +32,9 @@ int main(int argc, char *const argv[])
 
 #ifdef DEBUG // Check to see if flag is defined
 
-const char * text= "umulmundumulmumu";
+const char * text= "ACGGCACGAATACG";
 
 int k;
-HRSF(text, 1,3);
 
 #endif // DEB
 
