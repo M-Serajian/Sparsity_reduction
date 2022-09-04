@@ -73,4 +73,5 @@ target_link_libraries(
    sdsl
    divsufsort
    divsufsort64
+   klib
 )

@@ -80,6 +80,20 @@ set_property(TARGET divsufsort PROPERTY IMPORTED_LOCATION ${DIVSUFSORT_LIB})
 add_library(divsufsort64 STATIC IMPORTED GLOBAL)
 set_property(TARGET divsufsort64 PROPERTY IMPORTED_LOCATION ${DIVSUFSORT64_LIB})
 
+FetchContent_Declare(
+  klib
+  GIT_REPOSITORY https://github.com/attractivechaos/klib
+)
+
+FetchContent_GetProperties(klib)
+if(NOT klib_POPULATED)
+  FetchContent_Populate(klib)
+  
+  add_library(klib INTERFACE)
+
+  target_include_directories(klib INTERFACE ${klib_SOURCE_DIR})
+endif()
+
 
 
 
