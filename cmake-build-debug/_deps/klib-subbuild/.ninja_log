@@ -1,0 +1,21 @@
+# ninja log v5
+0	8	1668267654631417329	klib-populate-prefix/src/klib-populate-stamp/klib-populate-mkdir	63046645cb1302ca
+0	8	1668267654631417329	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-mkdir	63046645cb1302ca
+8	806	1668267655427414755	klib-populate-prefix/src/klib-populate-stamp/klib-populate-download	b2fe8c91481ba0ef
+8	806	1668267655427414755	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-download	b2fe8c91481ba0ef
+806	1089	0	klib-populate-prefix/src/klib-populate-stamp/klib-populate-update	5b980d6cf745e914
+806	1089	0	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-update	5b980d6cf745e914
+1089	1096	1668267655719413810	klib-populate-prefix/src/klib-populate-stamp/klib-populate-patch	c14dbce7ba20dbd
+1089	1096	1668267655719413810	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-patch	c14dbce7ba20dbd
+1096	1103	1668267655723413797	klib-populate-prefix/src/klib-populate-stamp/klib-populate-configure	3c6e0d070b11e11b
+1096	1103	1668267655723413797	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-configure	3c6e0d070b11e11b
+1103	1110	1668267655731413771	klib-populate-prefix/src/klib-populate-stamp/klib-populate-build	c8888eb65b5ae505
+1103	1110	1668267655731413771	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-build	c8888eb65b5ae505
+1110	1117	1668267655739413746	klib-populate-prefix/src/klib-populate-stamp/klib-populate-install	bd90198e3c71ae2a
+1110	1117	1668267655739413746	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-install	bd90198e3c71ae2a
+1117	1124	1668267655747413720	klib-populate-prefix/src/klib-populate-stamp/klib-populate-test	569e2390ca07fd9b
+1117	1124	1668267655747413720	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-test	569e2390ca07fd9b
+1124	1134	1668267655755413694	CMakeFiles/klib-populate-complete	cc2d5840d079bdb1
+1124	1134	1668267655755413694	klib-populate-prefix/src/klib-populate-stamp/klib-populate-done	cc2d5840d079bdb1
+1124	1134	1668267655755413694	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/CMakeFiles/klib-populate-complete	cc2d5840d079bdb1
+1124	1134	1668267655755413694	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-done	cc2d5840d079bdb1

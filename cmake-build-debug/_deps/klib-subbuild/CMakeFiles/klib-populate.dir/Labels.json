@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/CMakeFiles/klib-populate"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/CMakeFiles/klib-populate.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/CMakeFiles/klib-populate-complete.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-build.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-configure.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-download.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-install.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-mkdir.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-patch.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-test.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/klib-subbuild/klib-populate-prefix/src/klib-populate-stamp/klib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"klib-populate"
+		],
+		"name" : "klib-populate"
+	}
+}

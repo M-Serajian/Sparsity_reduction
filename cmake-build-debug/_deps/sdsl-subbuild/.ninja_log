@@ -1,0 +1,21 @@
+# ninja log v5
+0	7	1668267592835617371	sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-mkdir	f43d756f3dc61070
+0	7	1668267592835617371	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-mkdir	f43d756f3dc61070
+8	3948	1668267596779604591	sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-download	d818fe711f3661ab
+8	3948	1668267596779604591	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-download	d818fe711f3661ab
+3948	4431	0	sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-update	7806567892ca58c7
+3948	4431	0	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-update	7806567892ca58c7
+4431	4438	1668267597267603010	sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-patch	ab755e3ed40344bb
+4431	4438	1668267597267603010	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-patch	ab755e3ed40344bb
+4438	4445	1668267597275602984	sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-configure	5ec594fdb4ef8408
+4438	4445	1668267597275602984	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-configure	5ec594fdb4ef8408
+4445	4452	1668267597283602958	sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-build	5a04d273e4062d5b
+4445	4452	1668267597283602958	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-build	5a04d273e4062d5b
+4452	4459	1668267597287602945	sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-install	1dc9b9011b99ec95
+4452	4459	1668267597287602945	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-install	1dc9b9011b99ec95
+4459	4466	1668267597295602919	sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-test	b07e83037452c579
+4459	4466	1668267597295602919	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-test	b07e83037452c579
+4466	4476	1668267597303602893	CMakeFiles/sdsl-populate-complete	2d8feef499a27e82
+4466	4476	1668267597303602893	sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-done	2d8feef499a27e82
+4466	4476	1668267597303602893	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/CMakeFiles/sdsl-populate-complete	2d8feef499a27e82
+4466	4476	1668267597303602893	/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-done	2d8feef499a27e82

@@ -1,0 +1,5 @@
+Output of the algrithm
+Substrings that have occured at least 10 (k) times
+with the length of at least (l) 4that can not be extended
+any further from left or right.
+No substrings found with the aforementioned criteria

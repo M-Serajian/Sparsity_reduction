@@ -1,8 +1,24 @@
 // Cmake command sent by Max to prevent to -fPIE flag error
 //       cmake -DCMAKE_PREFIX_PATH=/s/apu/a/homes/rossi.m ..      //
-// cd ~/projects/Sparsity_reduction/build
 
-// data megares : /s/nut/a/data/Ali_Mehrdad/megares_full_database_v2.00.fasta
+// ------------------------------------------------------------------
+// build directory of the project
+// cd ~/projects/Sparsity_reduction/build
+//===================================================================
+
+//-------------------------------------------------------------------
+// Data directory
+// data directory on NUT: /s/nut/a/data/Ali_Mehrdad
+// megares: 
+// /s/nut/a/data/Ali_Mehrdad/megares/megares_full_database_v2.00.fasta
+//===================================================================
+
+//-------------------------------------------------------------------
+// linux runnung command on the build folder
+// ./Sparsity_reduction -i input_data_address -o output_data_address -t integer_number -l min_length_of_substrings -K least_number_of_repetition 
+//example: 
+//  ./Sparsity_reduction -i ~/projects/Sparsity_reduction/TestData/data.fa -o ~/projects/Sparsity_reduction/TestData/output.fa -t 0 -l 4 -k 10
+//===================================================================
 
 #include<iostream>
 #include <vector>
@@ -40,6 +56,8 @@ void parseArgs(int argc, char *const argv[], Args &arg)
   extern char *optarg;
   extern int optind;
 
+
+
   string usage("usage: " + std::string(argv[0]) + " infile [-i input] [-o output] [-t threads] [-l len] [-k repetitions] \n\n" +
                "Copmputes unique substrings occuring at least repetition times with min lenght of l\n" +
                "    repetition: [integer]  - min occurances of the substring.\n" +
@@ -47,6 +65,7 @@ void parseArgs(int argc, char *const argv[], Args &arg)
                "    input: [string]  - input file prefix.\n" +
                "    output: [string]  - output file prefix.\n" +
                "    thread: [integer] - number of threads (def. 1)\n");
+
 
   string sarg;
 
@@ -120,9 +139,15 @@ parseArgs(argc, argv, args);
 string input_sequence=  true_input_file_reader(args.input);
 const char* input_sequence_char;
 input_sequence_char= input_sequence.c_str();
-cout<< " DNA Length" <<strlen(input_sequence_char)<<endl;
+
 find_repetitive_sequences(input_sequence_char,1 ,args.repetition,args.length,args.output);
 
+
+vector <int> a;
+a.push_back(5);
+a.push_back(11);
+cout << a[0]<<endl;
+cout <<a[1] <<endl;
 
 return 0;
 }

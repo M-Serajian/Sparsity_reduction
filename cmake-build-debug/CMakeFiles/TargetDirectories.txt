@@ -1,0 +1,5 @@
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/CMakeFiles/Sparsity_reduction.dir
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/CMakeFiles/edit_cache.dir
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/CMakeFiles/edit_cache.dir
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/CMakeFiles/rebuild_cache.dir

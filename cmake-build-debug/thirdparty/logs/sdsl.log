@@ -1,0 +1,881 @@
+Library will be installed in '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty'
+Copy pre-commit into .git/hooks
+-- The CXX compiler identification is GNU 9.4.0
+-- The C compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Compiler is recent enough to support C++11.
+-- Performing Test HAVE_GCC_STD=C__11__WALL__WEXTRA__DNDEBUG
+-- Performing Test HAVE_GCC_STD=C__11__WALL__WEXTRA__DNDEBUG - Success
+-- Performing Test HAVE_GCC_O3__FFAST_MATH__FUNROLL_LOOPS
+-- Performing Test HAVE_GCC_O3__FFAST_MATH__FUNROLL_LOOPS - Success
+-- Performing Test HAVE_GCC_MSSE4.2__MARCH=NATIVE
+-- Performing Test HAVE_GCC_MSSE4.2__MARCH=NATIVE - Success
+-- Performing Test HAVE_CLANG_MSSE4.2__MARCH=NATIVE
+-- Performing Test HAVE_CLANG_MSSE4.2__MARCH=NATIVE - Success
+-- Performing Test HAVE_CXA_DEMANGLE
+-- Performing Test HAVE_CXA_DEMANGLE - Success
+-- Compiler supports DEMANGLE.
+-- Performing Test HAVE_GCC_DHAVE_CXA_DEMANGLE
+-- Performing Test HAVE_GCC_DHAVE_CXA_DEMANGLE - Success
+-- Found Git: /usr/bin/git (found version "2.25.1") 
+git found: /usr/bin/git
+CMake Warning (dev) at external/libdivsufsort/CMakeLists.txt:7 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Performing Test HAVE_GCC_WALL
+-- Performing Test HAVE_GCC_WALL - Success
+-- Performing Test HAVE_GCC_FOMIT_FRAME_POINTER
+-- Performing Test HAVE_GCC_FOMIT_FRAME_POINTER - Success
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Performing Test HAVE_INLINE
+-- Performing Test HAVE_INLINE - Success
+-- Performing Test HAVE___INLINE
+-- Performing Test HAVE___INLINE - Success
+-- Performing Test HAVE___INLINE__
+-- Performing Test HAVE___INLINE__ - Success
+-- Performing Test HAVE___DECLSPEC_DLLEXPORT_
+-- Performing Test HAVE___DECLSPEC_DLLEXPORT_ - Failed
+-- Performing Test HAVE___DECLSPEC_DLLIMPORT_
+-- Performing Test HAVE___DECLSPEC_DLLIMPORT_ - Failed
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Looking for PRId32
+-- Looking for PRId32 - found
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Looking for PRId64
+-- Looking for PRId64 - found
+CMake Warning (dev) at external/googletest/googletest/CMakeLists.txt:47 (project):
+  Policy CMP0048 is not set: project() command manages VERSION variables.
+  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The following variable(s) would be set to empty:
+
+    PROJECT_VERSION
+    PROJECT_VERSION_MAJOR
+    PROJECT_VERSION_MINOR
+    PROJECT_VERSION_PATCH
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PythonInterp: /s/nut/a/homes/m.serajian/bin/python (found version "3.8.10") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Looking for C++ include cstdio
+-- Looking for C++ include cstdio - found
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build
+/usr/bin/cmake -S/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src -B/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build --check-build-system CMakeFiles/Makefile.cmake 0
+make -f CMakeFiles/Makefile2 sdsl
+make[1]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+/usr/bin/cmake -S/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src -B/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/CMakeFiles 7
+make -f CMakeFiles/Makefile2 lib/CMakeFiles/sdsl.dir/all
+make[2]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+make -f lib/CMakeFiles/sdsl.dir/build.make lib/CMakeFiles/sdsl.dir/depend
+make[3]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/CMakeFiles/sdsl.dir/DependInfo.cmake --color=
+Scanning dependencies of target sdsl
+make[3]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+make -f lib/CMakeFiles/sdsl.dir/build.make lib/CMakeFiles/sdsl.dir/build
+make[3]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+[  0%] Building CXX object lib/CMakeFiles/sdsl.dir/bits.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/bits.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/bits.cpp
+[  0%] Building CXX object lib/CMakeFiles/sdsl.dir/bp_support_algorithm.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/bp_support_algorithm.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/bp_support_algorithm.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bp_support_algorithm.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/bp_support_algorithm.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[  0%] Building CXX object lib/CMakeFiles/sdsl.dir/coder_elias_delta.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/coder_elias_delta.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp: In constructor ‘sdsl::coder::elias_delta::impl::impl()’:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp:537:18: warning: array subscript 1 is outside array bounds of ‘uint64_t [1]’ {aka ‘long unsigned int [1]’} [-Warray-bounds]
+  537 |         if (0!=(w=*(++word)))
+      |                ~~^~~~~~~~~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:51:31: note: while referencing ‘x’
+   51 |                 for (uint64_t x=0; x < (1<<16); ++x) {
+      |                               ^
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp:506:18: warning: array subscript 1 is outside array bounds of ‘uint64_t [1]’ {aka ‘long unsigned int [1]’} [-Warray-bounds]
+  506 |                ((*(word+1) & bits::lo_set[(offset+len)&0x3F])   // set higher bits zero
+      |                  ^~~~~~~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:51:31: note: while referencing ‘x’
+   51 |                 for (uint64_t x=0; x < (1<<16); ++x) {
+      |                               ^
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp:506:18: warning: array subscript 1 is outside array bounds of ‘uint64_t [1]’ {aka ‘long unsigned int [1]’} [-Warray-bounds]
+  506 |                ((*(word+1) & bits::lo_set[(offset+len)&0x3F])   // set higher bits zero
+      |                  ^~~~~~~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:51:31: note: while referencing ‘x’
+   51 |                 for (uint64_t x=0; x < (1<<16); ++x) {
+      |                               ^
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp:537:18: warning: array subscript 1 is outside array bounds of ‘uint64_t [1]’ {aka ‘long unsigned int [1]’} [-Warray-bounds]
+  537 |         if (0!=(w=*(++word)))
+      |                ~~^~~~~~~~~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:82:35: note: while referencing ‘x’
+   82 |                     for (uint64_t x=0; x < (1<<8); ++x) {
+      |                                   ^
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp:506:18: warning: array subscript 1 is outside array bounds of ‘uint64_t [1]’ {aka ‘long unsigned int [1]’} [-Warray-bounds]
+  506 |                ((*(word+1) & bits::lo_set[(offset+len)&0x3F])   // set higher bits zero
+      |                  ^~~~~~~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:82:35: note: while referencing ‘x’
+   82 |                     for (uint64_t x=0; x < (1<<8); ++x) {
+      |                                   ^
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp:506:18: warning: array subscript 1 is outside array bounds of ‘uint64_t [1]’ {aka ‘long unsigned int [1]’} [-Warray-bounds]
+  506 |                ((*(word+1) & bits::lo_set[(offset+len)&0x3F])   // set higher bits zero
+      |                  ^~~~~~~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_delta.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_delta.hpp:82:35: note: while referencing ‘x’
+   82 |                     for (uint64_t x=0; x < (1<<8); ++x) {
+      |                                   ^
+[ 14%] Building CXX object lib/CMakeFiles/sdsl.dir/coder_elias_gamma.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/coder_elias_gamma.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_gamma.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_gamma.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_gamma.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_gamma.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_gamma.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp: In constructor ‘sdsl::coder::elias_gamma::impl::impl()’:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp:537:18: warning: array subscript 1 is outside array bounds of ‘uint64_t [1]’ {aka ‘long unsigned int [1]’} [-Warray-bounds]
+  537 |         if (0!=(w=*(++word)))
+      |                ~~^~~~~~~~~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_gamma.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_gamma.hpp:51:31: note: while referencing ‘x’
+   51 |                 for (uint64_t x=0; x < (1<<16); ++x) {
+      |                               ^
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_gamma.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_gamma.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp:506:18: warning: array subscript 1 is outside array bounds of ‘uint64_t [1]’ {aka ‘long unsigned int [1]’} [-Warray-bounds]
+  506 |                ((*(word+1) & bits::lo_set[(offset+len)&0x3F])   // set higher bits zero
+      |                  ^~~~~~~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_gamma.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_gamma.hpp:51:31: note: while referencing ‘x’
+   51 |                 for (uint64_t x=0; x < (1<<16); ++x) {
+      |                               ^
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_gamma.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_gamma.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp:537:18: warning: array subscript 1 is outside array bounds of ‘uint64_t [1]’ {aka ‘long unsigned int [1]’} [-Warray-bounds]
+  537 |         if (0!=(w=*(++word)))
+      |                ~~^~~~~~~~~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_gamma.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_gamma.hpp:80:35: note: while referencing ‘x’
+   80 |                     for (uint64_t x=0; x < (1<<8); ++x) {
+      |                                   ^
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_gamma.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_gamma.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/bits.hpp:506:18: warning: array subscript 1 is outside array bounds of ‘uint64_t [1]’ {aka ‘long unsigned int [1]’} [-Warray-bounds]
+  506 |                ((*(word+1) & bits::lo_set[(offset+len)&0x3F])   // set higher bits zero
+      |                  ^~~~~~~~~
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_elias_gamma.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_elias_gamma.hpp:80:35: note: while referencing ‘x’
+   80 |                     for (uint64_t x=0; x < (1<<8); ++x) {
+      |                                   ^
+[ 14%] Building CXX object lib/CMakeFiles/sdsl.dir/coder_fibonacci.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/coder_fibonacci.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_fibonacci.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/coder_fibonacci.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/coder_fibonacci.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 14%] Building CXX object lib/CMakeFiles/sdsl.dir/config.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/config.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/config.cpp
+[ 14%] Building CXX object lib/CMakeFiles/sdsl.dir/construct_config.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/construct_config.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/construct_config.cpp
+[ 28%] Building CXX object lib/CMakeFiles/sdsl.dir/construct_isa.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/construct_isa.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/construct_isa.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/construct_isa.hpp:24,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/construct_isa.cpp:4:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 28%] Building CXX object lib/CMakeFiles/sdsl.dir/construct_lcp.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/construct_lcp.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/construct_lcp.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/construct_lcp.hpp:26,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/construct_lcp.cpp:6:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 28%] Building CXX object lib/CMakeFiles/sdsl.dir/construct_lcp_helper.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/construct_lcp_helper.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/construct_lcp_helper.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/construct_lcp_helper.hpp:4,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/construct_lcp_helper.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 28%] Building CXX object lib/CMakeFiles/sdsl.dir/construct_sa.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/construct_sa.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/construct_sa.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/construct_sa.hpp:26,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/construct_sa.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 42%] Building CXX object lib/CMakeFiles/sdsl.dir/construct_sa_se.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/construct_sa_se.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/construct_sa_se.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/construct_sa_se.hpp:5,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/construct_sa_se.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 42%] Building CXX object lib/CMakeFiles/sdsl.dir/csa_alphabet_strategy.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/csa_alphabet_strategy.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/csa_alphabet_strategy.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/csa_alphabet_strategy.hpp:50,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/csa_alphabet_strategy.cpp:17:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 42%] Building CXX object lib/CMakeFiles/sdsl.dir/io.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/io.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/io.cpp
+[ 42%] Building CXX object lib/CMakeFiles/sdsl.dir/lcp_support_tree.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/lcp_support_tree.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/lcp_support_tree.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/lcp.hpp:26,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/lcp_support_tree.hpp:4,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/lcp_support_tree.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 57%] Building CXX object lib/CMakeFiles/sdsl.dir/louds_tree.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/louds_tree.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/louds_tree.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/louds_tree.hpp:11,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/louds_tree.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 57%] Building CXX object lib/CMakeFiles/sdsl.dir/memory_management.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/memory_management.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/memory_management.cpp
+[ 57%] Building CXX object lib/CMakeFiles/sdsl.dir/nn_dict_dynamic.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/nn_dict_dynamic.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/nn_dict_dynamic.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/nn_dict_dynamic.hpp:25,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/nn_dict_dynamic.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 57%] Building CXX object lib/CMakeFiles/sdsl.dir/ram_filebuf.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/ram_filebuf.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/ram_filebuf.cpp
+[ 71%] Building CXX object lib/CMakeFiles/sdsl.dir/ram_fs.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/ram_fs.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/ram_fs.cpp
+[ 71%] Building CXX object lib/CMakeFiles/sdsl.dir/rrr_vector_15.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/rrr_vector_15.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/rrr_vector_15.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/rrr_vector_15.hpp:25,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/rrr_vector_15.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 71%] Building CXX object lib/CMakeFiles/sdsl.dir/sd_vector.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/sd_vector.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/sd_vector.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/sd_vector.hpp:26,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/sd_vector.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[ 71%] Building CXX object lib/CMakeFiles/sdsl.dir/sfstream.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/sfstream.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/sfstream.cpp
+[ 85%] Building CXX object lib/CMakeFiles/sdsl.dir/structure_tree.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/structure_tree.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/structure_tree.cpp
+[ 85%] Building CXX object lib/CMakeFiles/sdsl.dir/uint128_t.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/uint128_t.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/uint128_t.cpp
+[ 85%] Building CXX object lib/CMakeFiles/sdsl.dir/uint256_t.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/uint256_t.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/uint256_t.cpp
+[ 85%] Building CXX object lib/CMakeFiles/sdsl.dir/util.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/util.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/util.cpp
+[100%] Building CXX object lib/CMakeFiles/sdsl.dir/wt_helper.cpp.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../external/libdivsufsort/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/include  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG   -o CMakeFiles/sdsl.dir/wt_helper.cpp.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/wt_helper.cpp
+In file included from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/wt_helper.hpp:4,
+                 from /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib/wt_helper.cpp:1:
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1402:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1402 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1410:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1410 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1418:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1418 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1426:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1426 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1434:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1434 | inline auto
+      |        ^~~~
+/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/../include/sdsl/int_vector.hpp:1442:8: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+ 1442 | inline auto
+      |        ^~~~
+[100%] Linking CXX static library libsdsl.a
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/cmake -P CMakeFiles/sdsl.dir/cmake_clean_target.cmake
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib && /usr/bin/cmake -E cmake_link_script CMakeFiles/sdsl.dir/link.txt --verbose=1
+/usr/bin/ar qc libsdsl.a  CMakeFiles/sdsl.dir/bits.cpp.o CMakeFiles/sdsl.dir/bp_support_algorithm.cpp.o CMakeFiles/sdsl.dir/coder_elias_delta.cpp.o CMakeFiles/sdsl.dir/coder_elias_gamma.cpp.o CMakeFiles/sdsl.dir/coder_fibonacci.cpp.o CMakeFiles/sdsl.dir/config.cpp.o CMakeFiles/sdsl.dir/construct_config.cpp.o CMakeFiles/sdsl.dir/construct_isa.cpp.o CMakeFiles/sdsl.dir/construct_lcp.cpp.o CMakeFiles/sdsl.dir/construct_lcp_helper.cpp.o CMakeFiles/sdsl.dir/construct_sa.cpp.o CMakeFiles/sdsl.dir/construct_sa_se.cpp.o CMakeFiles/sdsl.dir/csa_alphabet_strategy.cpp.o CMakeFiles/sdsl.dir/io.cpp.o CMakeFiles/sdsl.dir/lcp_support_tree.cpp.o CMakeFiles/sdsl.dir/louds_tree.cpp.o CMakeFiles/sdsl.dir/memory_management.cpp.o CMakeFiles/sdsl.dir/nn_dict_dynamic.cpp.o CMakeFiles/sdsl.dir/ram_filebuf.cpp.o CMakeFiles/sdsl.dir/ram_fs.cpp.o CMakeFiles/sdsl.dir/rrr_vector_15.cpp.o CMakeFiles/sdsl.dir/sd_vector.cpp.o CMakeFiles/sdsl.dir/sfstream.cpp.o CMakeFiles/sdsl.dir/structure_tree.cpp.o CMakeFiles/sdsl.dir/uint128_t.cpp.o CMakeFiles/sdsl.dir/uint256_t.cpp.o CMakeFiles/sdsl.dir/util.cpp.o CMakeFiles/sdsl.dir/wt_helper.cpp.o
+/usr/bin/ranlib libsdsl.a
+make[3]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+[100%] Built target sdsl
+make[2]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+/usr/bin/cmake -E cmake_progress_start /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/CMakeFiles 0
+make[1]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+Removing old files
+rm -rf '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/*'
+rm -f '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/lib/libsdsl*'
+/usr/bin/cmake -S/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src -B/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/CMakeFiles /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+make -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/depend
+make[2]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/DependInfo.cmake --color=
+Scanning dependencies of target divsufsort64
+make[2]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+make -f external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/build
+make[2]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+[  0%] Building C object external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/divsufsort.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cc -DHAVE_CONFIG_H=1 -DMODE_TI -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib/../include  -Wall -O3 -DNDEBUG -fomit-frame-pointer   -DBUILD_DIVSUFSORT64 -o CMakeFiles/divsufsort64.dir/divsufsort.o   -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/divsufsort.c
+[ 10%] Building C object external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/sssort.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cc -DHAVE_CONFIG_H=1 -DMODE_TI -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib/../include  -Wall -O3 -DNDEBUG -fomit-frame-pointer   -DBUILD_DIVSUFSORT64 -o CMakeFiles/divsufsort64.dir/sssort.o   -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/sssort.c
+[ 10%] Building C object external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/trsort.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cc -DHAVE_CONFIG_H=1 -DMODE_TI -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib/../include  -Wall -O3 -DNDEBUG -fomit-frame-pointer   -DBUILD_DIVSUFSORT64 -o CMakeFiles/divsufsort64.dir/trsort.o   -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/trsort.c
+[ 10%] Building C object external/libdivsufsort/lib/CMakeFiles/divsufsort64.dir/utils.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cc -DHAVE_CONFIG_H=1 -DMODE_TI -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib/../include  -Wall -O3 -DNDEBUG -fomit-frame-pointer   -DBUILD_DIVSUFSORT64 -o CMakeFiles/divsufsort64.dir/utils.o   -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/utils.c
+[ 10%] Linking C static library libdivsufsort64.a
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cmake -P CMakeFiles/divsufsort64.dir/cmake_clean_target.cmake
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cmake -E cmake_link_script CMakeFiles/divsufsort64.dir/link.txt --verbose=1
+/usr/bin/ar qc libdivsufsort64.a  CMakeFiles/divsufsort64.dir/divsufsort.o CMakeFiles/divsufsort64.dir/sssort.o CMakeFiles/divsufsort64.dir/trsort.o CMakeFiles/divsufsort64.dir/utils.o
+/usr/bin/ranlib libdivsufsort64.a
+make[2]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+[ 10%] Built target divsufsort64
+make -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/depend
+make[2]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/DependInfo.cmake --color=
+Scanning dependencies of target divsufsort
+make[2]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+make -f external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build.make external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/build
+make[2]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+[ 10%] Building C object external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/divsufsort.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cc -DHAVE_CONFIG_H=1 -DMODE_TI -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib/../include  -Wall -O3 -DNDEBUG -fomit-frame-pointer   -o CMakeFiles/divsufsort.dir/divsufsort.o   -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/divsufsort.c
+[ 10%] Building C object external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/sssort.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cc -DHAVE_CONFIG_H=1 -DMODE_TI -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib/../include  -Wall -O3 -DNDEBUG -fomit-frame-pointer   -o CMakeFiles/divsufsort.dir/sssort.o   -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/sssort.c
+[ 20%] Building C object external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/trsort.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cc -DHAVE_CONFIG_H=1 -DMODE_TI -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib/../include  -Wall -O3 -DNDEBUG -fomit-frame-pointer   -o CMakeFiles/divsufsort.dir/trsort.o   -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/trsort.c
+[ 20%] Building C object external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/utils.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cc -DHAVE_CONFIG_H=1 -DMODE_TI -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/../include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib/../include  -Wall -O3 -DNDEBUG -fomit-frame-pointer   -o CMakeFiles/divsufsort.dir/utils.o   -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/libdivsufsort/lib/utils.c
+[ 20%] Linking C static library libdivsufsort.a
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cmake -P CMakeFiles/divsufsort.dir/cmake_clean_target.cmake
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/libdivsufsort/lib && /usr/bin/cmake -E cmake_link_script CMakeFiles/divsufsort.dir/link.txt --verbose=1
+/usr/bin/ar qc libdivsufsort.a  CMakeFiles/divsufsort.dir/divsufsort.o CMakeFiles/divsufsort.dir/sssort.o CMakeFiles/divsufsort.dir/trsort.o CMakeFiles/divsufsort.dir/utils.o
+/usr/bin/ranlib libdivsufsort.a
+make[2]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+[ 20%] Built target divsufsort
+make -f external/googletest/googletest/CMakeFiles/gtest.dir/build.make external/googletest/googletest/CMakeFiles/gtest.dir/depend
+make[2]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/googletest/googletest /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/googletest/googletest /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake --color=
+Scanning dependencies of target gtest
+make[2]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+make -f external/googletest/googletest/CMakeFiles/gtest.dir/build.make external/googletest/googletest/CMakeFiles/gtest.dir/build
+make[2]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+[ 20%] Building CXX object external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/googletest/googletest && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/googletest/googletest/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/googletest/googletest  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG    -std=c++11 -Wall -Wextra -DNDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/googletest/googletest/src/gtest-all.cc
+[ 20%] Linking CXX static library libgtest.a
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/googletest/googletest && /usr/bin/cmake -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/googletest/googletest && /usr/bin/cmake -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=1
+/usr/bin/ar qc libgtest.a  CMakeFiles/gtest.dir/src/gtest-all.cc.o
+/usr/bin/ranlib libgtest.a
+make[2]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+[ 20%] Built target gtest
+make -f external/googletest/googletest/CMakeFiles/gtest_main.dir/build.make external/googletest/googletest/CMakeFiles/gtest_main.dir/depend
+make[2]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/googletest/googletest /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/googletest/googletest /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=
+Scanning dependencies of target gtest_main
+make[2]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+make -f external/googletest/googletest/CMakeFiles/gtest_main.dir/build.make external/googletest/googletest/CMakeFiles/gtest_main.dir/build
+make[2]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+[ 20%] Building CXX object external/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/googletest/googletest && /usr/bin/c++  -DMODE_TI -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/googletest/googletest/include -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/googletest/googletest  -std=c++11 -Wall -Wextra -DNDEBUG -O3 -DNDEBUG    -std=c++11 -Wall -Wextra -DNDEBUG -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/external/googletest/googletest/src/gtest_main.cc
+[ 30%] Linking CXX static library libgtest_main.a
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/googletest/googletest && /usr/bin/cmake -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/external/googletest/googletest && /usr/bin/cmake -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=1
+/usr/bin/ar qc libgtest_main.a  CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+/usr/bin/ranlib libgtest_main.a
+make[2]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+[ 30%] Built target gtest_main
+make -f lib/CMakeFiles/sdsl.dir/build.make lib/CMakeFiles/sdsl.dir/depend
+make[2]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+cd /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/lib /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/lib/CMakeFiles/sdsl.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+make -f lib/CMakeFiles/sdsl.dir/build.make lib/CMakeFiles/sdsl.dir/build
+make[2]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+make[2]: Nothing to be done for 'lib/CMakeFiles/sdsl.dir/build'.
+make[2]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+[100%] Built target sdsl
+make[1]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+/usr/bin/cmake -E cmake_progress_start /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build/CMakeFiles 0
+make -f CMakeFiles/Makefile2 preinstall
+make[1]: Entering directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+make[1]: Nothing to be done for 'preinstall'.
+make[1]: Leaving directory '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-src/build'
+Install the project...
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "Release"
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/lib/pkgconfig/sdsl-lite.pc
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/lib/pkgconfig/libdivsufsort.pc
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/lib/pkgconfig/libdivsufsort64.pc
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/divsufsort.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/divsufsort64.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/lib/libdivsufsort.a
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/lib/libdivsufsort64.a
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/lib/libgtest.a
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/lib/libgtest_main.a
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/gtest_prod.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/gtest-message.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-internal.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-port-arch.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-tuple.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-tuple.h.pump
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/custom
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/custom/gtest.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/custom/gtest-port.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/custom/gtest-printers.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-param-util-generated.h.pump
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-param-util-generated.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-port.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-string.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-type-util.h.pump
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-type-util.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-param-util.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-death-test-internal.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-filepath.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/internal/gtest-linked_ptr.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/gtest-test-part.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/gtest-typed-test.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/gtest_pred_impl.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/gtest-printers.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/gtest-death-test.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/gtest-param-test.h.pump
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/gtest-param-test.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/gtest-spi.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/gtest/gtest.h
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/bit_vector_il.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/bit_vectors.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/bits.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/bp_support.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/bp_support_algorithm.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/bp_support_g.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/bp_support_gg.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/bp_support_sada.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/coder.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/coder_comma.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/coder_elias_delta.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/coder_elias_gamma.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/coder_fibonacci.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/config.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/construct.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/construct_bwt.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/construct_config.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/construct_isa.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/construct_lcp.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/construct_lcp_helper.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/construct_sa.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/construct_sa_se.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/csa_alphabet_strategy.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/csa_bitcompressed.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/csa_sada.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/csa_sampling_strategy.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/csa_wt.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/cst_fully.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/cst_iterators.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/cst_sada.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/cst_sct3.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/dac_vector.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/enc_vector.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/fast_cache.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/hyb_vector.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/int_vector.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/int_vector_buffer.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/int_vector_io_wrappers.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/int_vector_mapper.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/inv_perm_support.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/io.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/iterators.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/k2_treap.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/k2_treap_algorithm.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/k2_treap_helper.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/k2_tree.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/k2_tree_helper.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/lcp.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/lcp_bitcompressed.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/lcp_byte.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/lcp_dac.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/lcp_support_sada.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/lcp_support_tree.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/lcp_support_tree2.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/lcp_vlc.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/lcp_wt.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/louds_tree.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/memory_management.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/nearest_neighbour_dictionary.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/nn_dict_dynamic.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/qsufsort.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/ram_filebuf.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/ram_fs.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/rank_support.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/rank_support_scan.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/rank_support_v.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/rank_support_v5.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/raster_img.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/rmq_succinct_sada.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/rmq_succinct_sct.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/rmq_support.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/rmq_support_sparse_table.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/rrr_helper.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/rrr_vector.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/rrr_vector_15.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/sd_vector.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/sdsl_concepts.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/select_support.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/select_support_mcl.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/select_support_scan.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/sfstream.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/sorted_int_stack.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/sorted_multi_stack_support.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/sorted_stack_support.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/structure_tree.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/suffix_array_algorithm.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/suffix_array_helper.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/suffix_arrays.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/suffix_tree_algorithm.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/suffix_tree_helper.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/suffix_trees.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/uint128_t.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/uint256_t.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/uintx_t.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/util.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/vectors.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/vlc_vector.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wavelet_trees.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wm_int.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wt_algorithm.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wt_ap.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wt_blcd.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wt_gmr.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wt_helper.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wt_huff.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wt_hutu.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wt_int.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wt_pc.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include/sdsl/wt_rlmn.hpp
+-- Installing: /s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/lib/libsdsl.a
+SUCCESS: sdsl was installed successfully!
+The sdsl include files are located in '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include'.
+The library files are located in '/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/lib'.
+ 
+Sample programs can be found in the examples-directory.
+A program 'example.cpp' can be compiled with the command: 
+g++ -std=c++11 -DNDEBUG -O3 [-msse4.2] \
+   -I/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/include -L/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/thirdparty/lib \
+   example.cpp -lsdsl -ldivsufsort -ldivsufsort64
+ 
+Tests in the test-directory
+A cheat sheet in the extras/cheatsheet-directory.
+Have fun!

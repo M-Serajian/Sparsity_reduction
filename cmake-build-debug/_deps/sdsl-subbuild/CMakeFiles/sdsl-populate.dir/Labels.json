@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/CMakeFiles/sdsl-populate"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/CMakeFiles/sdsl-populate.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/CMakeFiles/sdsl-populate-complete.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-build.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-configure.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-download.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-install.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-mkdir.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-patch.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-test.rule"
+		},
+		{
+			"file" : "/s/nut/a/homes/m.serajian/projects/Sparsity_reduction/cmake-build-debug/_deps/sdsl-subbuild/sdsl-populate-prefix/src/sdsl-populate-stamp/sdsl-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdsl-populate"
+		],
+		"name" : "sdsl-populate"
+	}
+}
